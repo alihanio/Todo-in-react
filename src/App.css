@@ -1,0 +1,48 @@
+body {
+  background-color: #112d49;
+}
+.todoFillStyle {
+  font-size: 1.8rem;
+  padding: 0 5px;
+  color: teal;
+  margin-right: 1rem;
+}
+.todoDeleteStyle {
+  font-size: 1.8rem;
+  color: grey;
+  padding: 0 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+.todoDeleteStyle:hover {
+  color: red;
+}
+.checkIcon {
+  cursor: pointer;
+  color: lightgrey;
+  padding: 0 5px;
+  font-size: 1.8rem;
+  position: absolute;
+  right: 2rem;
+}
+.checkIcon:hover {
+  color: greenyellow;
+}
+.updateIcon {
+  font-size: 1.8rem;
+  color: grey;
+  padding: 0 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 4rem;
+}
+.updateIcon:hover {
+  color: blue;
+}
+.refresh {
+  font-size: 1.8rem;
+}
+.allDelete {
+  font-size: 1.8rem;
+}
